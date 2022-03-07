@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body>
+            <form method="GET" action="unlugar" id="formulario1" name="formulario1" >
+                <fieldset>
+                    <legend>Nombre</legend>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <input type="text" name="nombre" size="20" maxlength="15"/>
+                                    <br/>
+                                    <label>Nombre</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="Apellido Paterno" size="20" maxlength="15"/>
+                                    <br/>
+                                    <label>Apellido Paterno</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="Apellido Materno" size="20" maxlength="15"/>
+                                    <br/>
+                                    <label>Apellido Materno</label>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>    
+                </fieldset>
+                <br/>
+                <fieldset>
+                    <legend>Direcci&oacute;n</legend>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <input type="text" name="calle" size="25" maxlength="25"/>
+                                    <br/>
+                                    <label>Calle</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="numerocalle" size="5" maxlength="5"/>
+                                    <br/>
+                                    <label>No.</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="colonia" size="20" maxlength="20"/>
+                                    <br/>
+                                    <label>Colonia</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="cp" size="5" maxlength="5"/>
+                                    <br/>
+                                    <label>CP</label>
+                                </td>
+                                <td>
+                                    <select name="ciudad">
+                                        <option value="ciudad">ciudad</option>
+                                    </select>
+                                    <br/>
+                                    <label>Ciudad</label>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+             
+                
+                <fieldset>
+                    <legend>Comentarios</legend>
+                    <textarea cols="50" rows="5"></textarea>
+                </fieldset>
+                <input type="submit" name="enviar" value="Enviar">
+                <input type="reset" name="borrar" value="Borrar">
+            </form>
+    </body>
+
+</html>
